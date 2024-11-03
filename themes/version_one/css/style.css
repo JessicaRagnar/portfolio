@@ -85,7 +85,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #2E4F4F;;
 }
 
 .title p {
@@ -97,11 +97,11 @@ body {
 .footer {
     display: flex;
     justify-content: flex-end;
-    border-top: 1px solid #222;
+    border-top: 1px solid #2E4F4F;
 }
 
 .footer a {
-    color: #222;
+    color: #2E4F4F;
 }
 
 .footer .social {
@@ -113,7 +113,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: #2E4F4F;
 }
 
 p, td, th, li, dd {
