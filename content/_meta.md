@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: img/logo.png
+Tagline: PA1436 Teknisk webbdesign och användbarhet.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/JessicaRagnar
       icon: github
 ---
