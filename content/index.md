@@ -15,4 +15,3 @@ Portfolio Jessica Ragnar
 Jag heter **Jessica Ragnar** och har arbetat inom socialt arbete större delen av mitt liv, med en utbildning som socionom i grunden. Samtidigt har jag alltid haft ett starkt intresse för IT och teknik. Just nu är jag tjänstledig från min roll som IT-samordnare för att studera Design av digitala upplevelser för lärande, webbprogrammering och webbutveckling.
 
 <br><br>
- ![Testar en bild i Markdown](http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/logo.png)

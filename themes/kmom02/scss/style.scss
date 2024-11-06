@@ -1,0 +1,184 @@
+@use '../../node_modules/normalize.css/normalize';
+@use 'variables';
+
+@use 'blockquotes';
+@use 'code';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: variables.$font-primary;
+    font-size: variables.$font-size-base;
+    background-color: variables.$background-color;
+    line-height: 1.5;
+}
+
+/* LOGO */
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+/* HOME-PAGE */
+.home-page {
+    .header {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    min-height: 100vh;
+    background-image: url('../../../assets/img/bg.svg');
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    }
+    .main {
+        flex: 1; 
+        background-color: variables.$font-dark-color;
+        color: variables.$font-light-color;
+        padding: 40px 0;
+    
+        .content-wrapper {
+            max-width: 60vw; 
+            margin: 0 auto; 
+            padding: 0 20px; 
+        }
+    }
+}
+
+/* ABOUT-PAGE */
+.about-page {
+    .main {
+        flex: 1;
+        min-height: 60vh;
+        background-color: variables.$font-dark-color;
+        color: variables.$font-light-color;
+    
+        .content-wrapper {
+            max-width: 50vw; 
+            margin: 0 auto; 
+            padding: 0 20px; 
+        }
+    }
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* NAVIGATION */
+.nav {
+    font-family: variables.$font-menu;
+    font-size: variables.$font-size-large;
+    padding-top: 40px;
+    padding-right: 20px;
+
+    a {
+        text-decoration: none;
+        color: variables.$font-light-color;
+        font-weight: 400;
+        transition: color 0.3s ease, text-decoration 0.5s ease;
+
+        &:hover {
+            color: variables.$font-accent-color; 
+            text-decoration: underline; 
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* MAIN */
+.main {
+    flex: 1; 
+    background-color: variables.$font-dark-color;
+    color: variables.$font-light-color;
+    padding: 40px 0;
+
+    .content-wrapper {
+        max-width: 60vw; 
+        margin: 0 auto; 
+        padding: 0 20px; 
+    }
+}
+
+h1, h2, h3 {
+    font-family: variables.$font-secondary;
+    font-weight: 400;
+}
+
+/* FOOTER*/
+.footer {
+    background-color: variables.$background-darker-color;
+    padding: 10px;
+    padding-right: 20px;
+
+    .social {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px; 
+
+        a {
+            color: variables.$font-light-color; 
+            font-size: 24px; 
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: variables.$font-accent-color; 
+            }
+
+            i {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+/* PROFILBILD */
+.profile-pic {
+    width: 350px; 
+    height: 350px;
+    border-radius: 50%; 
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    border: 10px solid #4682b4; 
+}
+
+
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block; 
+    }
+
+    .nav {
+        display: none; 
+    }
+
+    .nav[aria-expanded="true"] {
+        display: block; 
+    }
+}
