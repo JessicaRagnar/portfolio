@@ -17,7 +17,7 @@ Jag gjorde en migrering i ett försök att undvika fel för att @import ska utg�
 
 ## Övrigt
 
-Jag importerar teckensnitt från Google Fonts och har två ikoner från Font Awesome i min design.
+Jag importerar teckensnitt från Google Fonts och har två ikoner från Font Awesome i min design. Jag är inte heller vän med den responsiva hamburgermenyn men det får duga tillsvidare.
 
 
 

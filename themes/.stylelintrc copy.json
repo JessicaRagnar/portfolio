@@ -3,6 +3,14 @@
         "stylelint-config-sass-guidelines"
     ],
     "rules": {
+        "indentation": [
+            4,
+            {
+                "except": [
+                    "value"
+                ]
+            }
+        ],
         "at-rule-no-unknown": null,
         "selector-max-compound-selectors": 5
     },

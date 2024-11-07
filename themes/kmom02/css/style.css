@@ -312,6 +312,76 @@ template {
   display: none;
 }
 
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.2s ease-in-out !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a,
+.nav-toggle {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 44px;
+}
+
+a {
+  text-decoration: none;
+  color: #f5f5dc;
+  font-weight: 400;
+  transition: color 0.3s ease, text-decoration 0.5s ease;
+}
+a:hover {
+  color: #4682b4;
+  text-decoration: underline;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    position: relative;
+  }
+  .nav ul {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    background-color: #e1a95f;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0;
+    gap: 0;
+    text-align: center;
+    font-size: 34px;
+  }
+  /* Hamburger-icon */
+  .js .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    cursor: pointer;
+  }
+}
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -324,7 +394,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #ffffff;
+  background: #fff;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -334,7 +404,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #ffffff;
+  background: #fff;
 }
 
 pre code {
@@ -6467,10 +6537,15 @@ body {
   line-height: 1.5;
 }
 
-/* LOGO */
-.logo img {
-  width: 200px;
-  height: auto;
+.content-wrapper {
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hide navbar-smenu */
+.hidden {
+  display: none !important;
 }
 
 /* HOME-PAGE */
@@ -6486,27 +6561,17 @@ body {
 }
 .home-page .main {
   flex: 1;
-  background-color: #333333;
+  background-color: #333;
   color: #f5f5dc;
   padding: 40px 0;
-}
-.home-page .main .content-wrapper {
-  max-width: 60vw;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 /* ABOUT-PAGE */
 .about-page .main {
   flex: 1;
   min-height: 60vh;
-  background-color: #333333;
+  background-color: #333;
   color: #f5f5dc;
-}
-.about-page .main .content-wrapper {
-  max-width: 50vw;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 /* HEADER */
@@ -6523,32 +6588,17 @@ body {
   width: 100%;
 }
 
-/* NAVIGATION */
-.nav {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 44px;
-  padding-top: 40px;
-  padding-right: 20px;
-}
-.nav a {
-  text-decoration: none;
-  color: #f5f5dc;
-  font-weight: 400;
-  transition: color 0.3s ease, text-decoration 0.5s ease;
-}
-.nav a:hover {
-  color: #4682b4;
-  text-decoration: underline;
-}
-.nav ul {
-  margin: 0;
-  padding: 0;
+/* LOGO */
+.logo img {
+  width: 20vw;
+  max-width: 200px;
+  height: auto;
 }
 
 /* MAIN */
 .main {
   flex: 1;
-  background-color: #333333;
+  background-color: #333;
   color: #f5f5dc;
   padding: 40px 0;
 }
@@ -6558,55 +6608,82 @@ body {
   padding: 0 20px;
 }
 
-h1, h2, h3 {
+/* TEXT */
+h1,
+h2,
+h3 {
   font-family: "Playwrite GB S", sans-serif;
   font-weight: 400;
 }
 
 /* FOOTER*/
 .footer {
-  background-color: #222222;
+  background-color: #222;
   padding: 10px;
   padding-right: 20px;
 }
-.footer .social {
+
+.social {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 10px;
 }
-.footer .social a {
+
+a {
   color: #f5f5dc;
   font-size: 24px;
   transition: color 0.3s ease;
 }
-.footer .social a:hover {
+a:hover {
   color: #4682b4;
 }
-.footer .social a i {
+a i {
   display: inline-block;
 }
 
-/* PROFILBILD */
+/* PROFILPICTURE */
 .profile-pic {
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
   border-radius: 50%;
-  float: left;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-right: 40px;
   border: 10px solid #4682b4;
+  float: left;
+  margin: 20px 40px 20px 0;
 }
 
+/* RESPONSIVITY */
 @media (max-width: 768px) {
-  .nav-toggle {
-    display: block;
+  .profile-pic {
+    max-width: 250px;
+    margin: 15px;
+    float: none;
+    margin: 0 auto;
   }
-  .nav {
-    display: none;
+  img {
+    max-width: 80%;
+    height: auto;
   }
-  .nav[aria-expanded=true] {
-    display: block;
+  .content-wrapper {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .home-page .header,
+  .about-page .header {
+    background-image: url("../../../assets/img/bg.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 10vh;
+  }
+  .home-page .main,
+  .about-page .main {
+    flex: 1;
+    background-color: #333;
+    color: #f5f5dc;
+    padding: 0;
+    text-align: center;
   }
 }

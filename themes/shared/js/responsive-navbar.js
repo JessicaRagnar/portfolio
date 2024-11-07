@@ -38,11 +38,11 @@ function main()
             }
 
             event.preventDefault();
-
+            
             if (menuToggle.getAttribute('aria-expanded') === 'false') {
                 menuToggle.setAttribute('aria-expanded', 'true');
                 navIcon.className = 'fa fa-times';
-
+ 
                 utils.slideDown(menu, null, function () {
                     if (event.type === 'keydown') {
                         menu.focus();
