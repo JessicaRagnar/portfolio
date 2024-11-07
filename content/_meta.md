@@ -8,6 +8,6 @@ Social:
       icon: fab fa-github
 
     - title: Länk till Linkedin
-      url: www.linkedin.com/in/jessica-ragnar-4335a424a
+      url: https://linkedin.com/in/jessica-ragnar-4335a424a
       icon: fab fa-linkedin
 ---
