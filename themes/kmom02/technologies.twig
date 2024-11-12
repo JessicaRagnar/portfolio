@@ -1,0 +1,16 @@
+
+{% include 'incl/header.twig' %}
+
+<body class="{% if current_page.title == 'About' %}about-page{% elseif current_page.title == 'Home' %}home-page{% endif %}">
+        {% include 'incl/nav.twig' %}
+        
+    <div class="main" role="main">
+    <div class="landingpage">
+        {{ content }}
+    </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
