@@ -2,7 +2,7 @@
     <div class="social">
     {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-            <i class="{{ social.icon }}" aria-hidden="true"></i>
+            <span aria-hidden="true">{{ social.icon }}</span>
             <span class="sr-only">{{ social.title }}</span>
         </a>
     {% endfor %}

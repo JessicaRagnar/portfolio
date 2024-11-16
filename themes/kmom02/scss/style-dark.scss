@@ -1,0 +1,190 @@
+@use '../../node_modules/normalize.css/normalize';
+@use 'variables';
+
+@use 'mobile-menu';
+@use 'blockquotes';
+@use 'code';
+
+@use 'technology';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: variables.$font-primary;
+  font-size: variables.$font-size-base;
+  background-color: variables.$background-darker-color;
+  line-height: 1.5;
+}
+
+.content-wrapper {
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+
+/* Hide navbar-smenu */
+.hidden {
+  display: none !important;
+}
+
+/* HOME-PAGE */
+.home-page {
+  .header {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    min-height: 100vh;
+    background-image: url('../../../assets/img/bgkmom04.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    flex: 1;
+    background-color: variables.$background-dark-color;
+    color: variables.$font-light-color;
+    padding: 40px 0;
+  }
+}
+/* ABOUT-PAGE */
+.about-page {
+  .main {
+    flex: 1;
+    min-height: 60vh;
+    background-color: variables.$background-dark-color;
+    color: variables.$font-light-color;
+  }
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* LOGO */
+.logo img {
+  width: 20vw;
+  max-width: 200px;
+  height: auto;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  background-color: variables.$background-dark-color;
+  color: variables.$font-light-color;
+  padding: 40px 0;
+
+  .content-wrapper {
+    max-width: 50vw;
+    margin: 0 auto;
+    padding: 0 20px; 
+  }
+}
+/* TEXT */
+h1,
+h2,
+h3 {
+  font-family: variables.$font-secondary;
+  font-weight: 400;
+}
+
+/* FOOTER*/
+.footer {
+  background-color: variables.$background-darker-color;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer a {
+  font-size: 24px;
+  transition: color 0.3s ease;
+
+  &:hover {
+    text-decoration: none;
+    background-color: rgba(94, 178, 224, 0.308);
+    box-shadow: 0 0 15px rgba(94, 178, 224, 0.7);
+    border-radius: 100%;
+  }
+
+  i {
+    display: inline-block;
+  }
+}
+
+/* PROFILPICTURE */
+.profile-pic {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 50%;
+  border: 10px solid #5eb2e0;
+  float: left;
+  margin: 20px 40px 20px 0;
+}
+
+/* RESPONSIVITY */
+@media (max-width: 768px) {
+  .profile-pic {
+    max-width: 250px;
+    margin: 15px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .content-wrapper {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 10px; 
+  }
+
+  .home-page,
+  .about-page {
+    .header {
+      background-image: url('../../../assets/img/bg.svg');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 10vh;
+    }
+
+    .main {
+      flex: 1;
+      background-color: variables.$background-dark-color;
+      color: variables.$font-light-color;
+      padding: 0;
+      text-align: center;
+    }
+  }
+}
