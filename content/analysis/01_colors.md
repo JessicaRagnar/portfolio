@@ -36,7 +36,7 @@ När det kommer till teckensnitt använder IKEA ett egendesignat teckensnitt som
 
 ---
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/avanza_se.PNG" alt="Skärmbild Avanza.se" class="">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/avanza_se.PNG" alt="Skärmbild Avanza.se" class="report_image">
 
 Den andra webbplatsen är **Avanza.se**. Webbsidan använder sig av en mer neutral vit, **#FDFDFD** som bakgrundsfärg. Loggan visas till vänster och den gröna färgen, **#068E6A** återkommer i olika gradieringar över startsidan. En mörkare färg, **#07383E** används för knappar.
 
@@ -46,7 +46,7 @@ Texten på webbsidan visas i en mjukare nyans av svart, **#222222** eller ren vi
 
 ---
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/1177_se.PNG" alt="Skärmbild 1177.se" class="">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/1177_se.PNG" alt="Skärmbild 1177.se" class="report_image">
 
 Den tredje webbsidan som granskats är **1177.se**. Webbsidan har en ren vit bakgrund och en röd kontrastfärg, **#C12143**. Återigen förekommer loggan i vänster hörn och färgerna återkommer på webbsidan. Webbsidan har stor text, tydliga ikoner och knappar konstraterar mot den vita bakgrund i en dämpad blå ton, **#396291**.
 
@@ -59,7 +59,7 @@ Analys
 
 ### Konnotation av IKEA:s webbsida
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/ikeatheme.jpg" alt="Färgpalett IKEA" class="">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/ikeatheme.jpeg" alt="Färgpalett IKEA" class="report_image">
 
 Färgen på bakgrunden är något varmare än ren vit, vilket skapar en mjuk och lugn känsla. Nyansen bidrar till en känsla av enkelhet och renhet, vilket troligen är några av de känslor IKEA vill förmedla i sin identitet som en möbeltillverkare som vill sälja prisvärda produkter till så många som möjligt. Den gula och blå färgen från logotypen återkommer i designen, vilket skapar igenkänning och knyter ihop sidans innehåll. Färgerna symboliserar också det svenska ursprunget. Sidfoten innehåller också några överraskningsmoment som bidrar till en lekfull stämning utan att vara påträngande.
 
@@ -69,7 +69,7 @@ Teckensnittet är noga utvalt för ett globalt företag som IKEA, där webbsidan
 
 ### Konnotation av Avanza:s webbsida
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/avanzatheme.jpg" alt="Färgpalett Avanza" class="">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/avanzatheme.jpeg" alt="Färgpalett Avanza" class="report_image">
 
 Avanza, som är en digital bank, använder också en vit bakgrund, men mer neutral vit som kan kännas lite mer steril eller teknisk. Den gröna färgen är troligen tänkt att symbolisera tillväxt eller värde, vilket nämns bland annat av George, J. & Beaird, J. (2014).
 
@@ -79,7 +79,7 @@ Teckensnitten är moderna, enkla att läsa och bidrar till känslan av en modern
 
 ### Konnotation av 1177:s webbsida
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/1177theme.jpg" alt="Färgpalett 1177" class="">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/1177theme.jpeg" alt="Färgpalett 1177" class="report_image">
 
 1177 är en webbsida som drivs av Inera på uppdrag av Sveriges alla regioner. Det är en webbsida som samlar råd om hälsa och vård från regionerna i Sverige. Webbsidan används också för en sammanhållen överblick av vårdgivare. Här används en ren vit tillsammans med röd som kontrast. Det röda är troligen tänkt att knyta an till hälsa och kanske det lite mer dramatiska som nämns av George, J. & Beaird, J. (2014).
 
@@ -100,7 +100,7 @@ George, J. & Beaird, J. (2014). The Principles of Beautiful Web Design, 3rd Edit
 Övrigt
 -----------------------
 
-Jag kan ha överdrivit något med storleken på den här rapporten, men det här är något som jag tycker är väldigt roligt och intressant och som jag ofta gör i huvudet när jag besöker olika webbsidor. Jag tänker mycket på design utifrån färger, teckensnitt och layout både i mina egna projekt och när jag besöker webbsidor så det var väldigt kul att få formulera detta i text. Det är givande för kommande projekt att studera och fundera över färgval, det har också varit väldigt givande att inspektera kod på olika webbsidor. Exempelvis har IKEA en betydligt bättre struktur för sin stil än Avanza som inte skulle ha det så kul om de beslöt sig för att ändra färg på webbsidan.
+Jag kan ha överdrivit något med omfattningen på den här rapporten, men det här är något som jag tycker är väldigt roligt och intressant och som jag ofta gör i huvudet när jag besöker olika webbsidor. Jag tänker mycket på design utifrån färger, teckensnitt och layout både i mina egna projekt och när jag besöker webbsidor så det var väldigt kul att få formulera detta i text. Det är givande för kommande projekt att studera och fundera över färgval, det har också varit väldigt givande att inspektera kod på olika webbsidor. Exempelvis har IKEA en betydligt bättre struktur för sin stil än Avanza som inte skulle ha det så kul om de beslöt sig för att ändra färg på webbsidan.
 
 Författare till denna rapport är Jessica Ragnar.
 2024-11-15

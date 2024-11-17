@@ -320,7 +320,7 @@ template {
 .nav ul {
   display: flex;
   justify-content: flex-end;
-  padding: 10px 10px;
+  padding: 10px;
   list-style: none;
 }
 
@@ -336,12 +336,12 @@ template {
 
 a {
   text-decoration: none;
-  color: #8B7C69;
+  color: #8b7c69;
   font-weight: 400;
   transition: color 0.3s ease, text-decoration 0.5s ease;
 }
 a:hover {
-  color: #64737A;
+  color: #64737a;
   text-decoration: underline;
 }
 
@@ -451,7 +451,7 @@ pre code {
 
 .borderbox {
   margin: 10px;
-  background-color: #615C55;
+  background-color: #615c55;
 }
 
 .box-header {
@@ -472,7 +472,7 @@ a:visited {
 }
 
 .box-header h2 a:hover {
-  color: #5EB2E0;
+  color: #5eb2e0;
   text-decoration: underline;
 }
 
@@ -495,7 +495,7 @@ a:visited {
   display: block;
   padding: 20px;
   text-align: left;
-  background-color: #615C55;
+  background-color: #615c55;
   transition: background-color 0.3s ease;
 }
 
@@ -506,7 +506,7 @@ a:visited {
 }
 
 .technology-menu li:hover {
-  background-color: #5EB2E0;
+  background-color: #5eb2e0;
 }
 
 /* RESPONSIVITY */
@@ -531,14 +531,14 @@ a:visited {
   .technology-menu-mobile {
     display: block;
     padding: 20px;
-    background-color: #615C55;
+    background-color: #615c55;
     transition: background-color 0.3s ease;
   }
   .technology-menu-mobile li {
     flex: 1 1 auto;
     display: block;
     padding: 10px;
-    background-color: #615C55;
+    background-color: #615c55;
     transition: background-color 0.3s ease;
   }
   .technology-menu-mobile li a {
@@ -6700,7 +6700,7 @@ body {
 }
 .home-page .main {
   flex: 1;
-  background-color: #615C55;
+  background-color: #615c55;
   color: #f5f5dc;
   padding: 40px 0;
 }
@@ -6709,7 +6709,7 @@ body {
 .about-page .main {
   flex: 1;
   min-height: 60vh;
-  background-color: #615C55;
+  background-color: #615c55;
   color: #f5f5dc;
 }
 
@@ -6737,7 +6737,7 @@ body {
 /* MAIN */
 .main {
   flex: 1;
-  background-color: #615C55;
+  background-color: #615c55;
   color: #f5f5dc;
   padding: 40px 0;
 }
@@ -6789,7 +6789,7 @@ h3 {
   max-width: 350px;
   height: auto;
   border-radius: 50%;
-  border: 10px solid #5EB2E0;
+  border: 10px solid #5eb2e0;
   float: left;
   margin: 20px 40px 20px 0;
 }
@@ -6822,7 +6822,7 @@ h3 {
   .home-page .main,
   .about-page .main {
     flex: 1;
-    background-color: #615C55;
+    background-color: #615c55;
     color: #f5f5dc;
     padding: 0;
     text-align: center;
