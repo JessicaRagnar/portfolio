@@ -25,15 +25,15 @@ Resultat
 
 ### Resultat
 
-<img src="http://localhost:8080/dbwebb/design/me/portfolio/image/kmom05/wikipedia.png" alt="Wikipedia">
+![Wikipedia](../image/kmom05/wikipedia.png)
 
 Webbplatsen **Wikipedia** har den bästa prestandan med ett lågt antal förfrågningar (22), liten mängd överförd data (208 kB) och snabb laddningstid (0,448 sekunder). Dessutom har Wikipedia de högsta PageSpeed-betygen för mobil (91) och näst högsta för desktop (99). Den enkla och avskalade designen, som till största delen består av text och enstaka bilder, bidrar till den höga prestandan och snabba laddningstider. Ett förbättringsområde för att minska filstorlek på bilder skulle vara att konvertera bilder till mer moderna format, såsom WebP samt att anpassa så att bilder inte laddas in i en onödigt stor upplösning. En annan insikt från PageSpeed är att Wikipedia har ett relativt stort DOM-träd med 1 106 element och att HTML-strukturen kan behöva ses över.
 
-<img src="http://localhost:8080/dbwebb/design/me/portfolio/image/kmom05/smashinmagazine.png" alt="Smashing Magazine">
+![Smashing Magazine](../image/kmom05/smashinmagazine.png)
 
 **Smashing Magazine** hamnar i mitten med fler förfrågningar (117), något mer överförd data (602 kB) och en något längre laddningstid (3,12 sekunder). PageSpeed-betygen blir bäst för desktop (100) och något lägre för mobil (89), vilket ändå visar att webbsidan har god optimering trots mer visuellt innehåll. Det blir kanske också tydligt att webbsidan främst är optimerad för desktop. Förbättringsområden vad gäller webbsidan i mobil kan vara att reducera JavaScript och CSS som inte används samt att förbättra Largest Contentful Paint (LCP), vilket representerar tiden från att sidan laddas till det största synliga innehållselement visas för användaren.
 
-<img src="http://localhost:8080/dbwebb/design/me/portfolio/image/kmom05/reddit.png" alt="Reddit">
+![Reddit](../image/kmom05/reddit.png)
 
 Webbplatsen **Reddit** presterar sämst med högst antal förfrågningar (287), betydligt mer överförd data (2890 kB) och en mycket längre laddningstid (31,13 sekunder). PageSpeed-betyg är låga både för mobil (51) och desktop (62), vilket tyder på bristande optimering och behov av förbättringar för en snabbare användarupplevelse. Insikter från PageSpeed visar att DOM-trädet är komplext med 5 059 element vilket kan påverka prestandan. Andra förbättringsområden kan vara att reducera och optimera JavaScript, bilder och CSS. Överlag innehåller Reddit många bilder och mycket innehåll vilket påverkar prestandan.
 

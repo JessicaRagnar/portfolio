@@ -8,7 +8,7 @@ Portfolio Jessica Ragnar
 
 **Välkommen till den här portfolion som är en del av kursen Teknisk webbdesign och användbarhet.**
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/JessicaR.jpg" alt="Bild på Jessica" class="profile-pic">
+<img src="image/JessicaR.jpg" alt="Bild på Jessica" class="profile-pic">
 
 # Om mig
 

@@ -1,5 +1,5 @@
 ---
-Logo: img/logo.png
+Logo: image/logo.png
 Tagline: PA1436 Teknisk webbdesign och användbarhet.
 
 Social:
