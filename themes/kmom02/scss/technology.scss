@@ -23,7 +23,7 @@
 
 .small {
   grid-column: span 1;
-  background-color: variables.$background-darker-color;
+  background-color: variables.$background-color;
 }
 
 .wide {
@@ -36,11 +36,11 @@
 
 .borderbox {
   margin: 10px;
-  background-color: variables.$background-dark-color;
+  background-color: variables.$background-color;
 }
 
 .box-header {
-  background-color: variables.$background-color;
+  background-color: variables.$background-black-color;
   text-align: center;
   padding: 10px;
 }

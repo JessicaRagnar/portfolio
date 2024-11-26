@@ -336,7 +336,7 @@ template {
 
 a {
   text-decoration: none;
-  color: #8b7c69;
+  color: #f5f5dc;
   font-weight: 400;
   transition: color 0.3s ease, text-decoration 0.5s ease;
 }
@@ -393,7 +393,7 @@ code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
   border: 1px solid #222;
-  background: #fff;
+  background: #273136;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -438,7 +438,7 @@ pre code {
 
 .small {
   grid-column: span 1;
-  background-color: #273136;
+  background-color: #e1a95f;
 }
 
 .wide {
@@ -451,11 +451,11 @@ pre code {
 
 .borderbox {
   margin: 10px;
-  background-color: #615c55;
+  background-color: #e1a95f;
 }
 
 .box-header {
-  background-color: #e1a95f;
+  background-color: #333;
   text-align: center;
   padding: 10px;
 }
@@ -6666,6 +6666,10 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -6760,6 +6764,32 @@ h3 {
   width: 100%;
 }
 
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+/* VIDEO */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* FOOTER*/
 .footer {
   background-color: #273136;
@@ -6807,9 +6837,15 @@ h3 {
     float: none;
     margin: 0 auto;
   }
+  body {
+    font-size: 24px;
+  }
   img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
+  }
+  .main .content-wrapper {
+    max-width: 100vw;
   }
   .content-wrapper {
     max-width: 100vw;
@@ -6827,6 +6863,7 @@ h3 {
   .home-page .main,
   .about-page .main {
     flex: 1;
+    max-width: 100vw;
     background-color: #615c55;
     color: #f5f5dc;
     padding: 0;

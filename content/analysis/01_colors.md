@@ -4,7 +4,7 @@ Description: Rapport om färger och typografi
 
 ---
 
-Titel på rapporten
+Rapport om färger och typografi
 =======================
 
 Syftet med denna uppgift är att fördjupa förståelsen för hur designval som färg och typografi formar användarupplevelsen på webbplatser. Utifrån en enklare semiotisk analys av tre utvalda webbplatser undersöker denna rapport hur olika färgsättningar och teckensnitt samverkar för att tydliggöra webbplatsens identitet och tilltänkta målgrupp.
@@ -24,7 +24,7 @@ Resultat
 
 ### Denotation av webbsidorna
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/ikea_se.PNG" alt="Skärmbild IKEA.se" class="">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/kmom04/ikea_se.PNG" alt="Skärmbild IKEA.se" class="">
 
 Den första webbplatsen **IKEA.com** har en nästan vit bakgrund, **#FFFEFB**. IKEA:s logga är representerad i vänster hörn, och den gula färgen, **#FFDB00**, återkommer i ett element som leder vidare till respektive butik bredvid en något större bild. I sidfoten återfinns den blåa färgen från loggan, **#0058A3**. Alla element på landing-page har något rundade hörn. 
 
@@ -36,7 +36,7 @@ När det kommer till teckensnitt använder IKEA ett egendesignat teckensnitt som
 
 ---
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/avanza_se.PNG" alt="Skärmbild Avanza.se" class="report_image">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/kmom04/avanza_se.PNG" alt="Skärmbild Avanza.se" class="report_image">
 
 Den andra webbplatsen är **Avanza.se**. Webbsidan använder sig av en mer neutral vit, **#FDFDFD** som bakgrundsfärg. Loggan visas till vänster och den gröna färgen, **#068E6A** återkommer i olika gradieringar över startsidan. En mörkare färg, **#07383E** används för knappar.
 
@@ -46,7 +46,7 @@ Texten på webbsidan visas i en mjukare nyans av svart, **#222222** eller ren vi
 
 ---
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/1177_se.PNG" alt="Skärmbild 1177.se" class="report_image">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/kmom04/1177_se.PNG" alt="Skärmbild 1177.se" class="report_image">
 
 Den tredje webbsidan som granskats är **1177.se**. Webbsidan har en ren vit bakgrund och en röd kontrastfärg, **#C12143**. Återigen förekommer loggan i vänster hörn och färgerna återkommer på webbsidan. Webbsidan har stor text, tydliga ikoner och knappar konstraterar mot den vita bakgrund i en dämpad blå ton, **#396291**.
 
@@ -59,7 +59,7 @@ Analys
 
 ### Konnotation av IKEA:s webbsida
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/ikeatheme.jpeg" alt="Färgpalett IKEA" class="report_image">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/kmom04/ikeatheme.jpeg" alt="Färgpalett IKEA" class="report_image">
 
 Färgen på bakgrunden är något varmare än ren vit, vilket skapar en mjuk och lugn känsla. Nyansen bidrar till en känsla av enkelhet och renhet, vilket troligen är några av de känslor IKEA vill förmedla i sin identitet som en möbeltillverkare som vill sälja prisvärda produkter till så många som möjligt. Den gula och blå färgen från logotypen återkommer i designen, vilket skapar igenkänning och knyter ihop sidans innehåll. Färgerna symboliserar också det svenska ursprunget. Sidfoten innehåller också några överraskningsmoment som bidrar till en lekfull stämning utan att vara påträngande.
 
@@ -69,7 +69,7 @@ Teckensnittet är noga utvalt för ett globalt företag som IKEA, där webbsidan
 
 ### Konnotation av Avanza:s webbsida
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/avanzatheme.jpeg" alt="Färgpalett Avanza" class="report_image">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/kmom04/avanzatheme.jpeg" alt="Färgpalett Avanza" class="report_image">
 
 Avanza, som är en digital bank, använder också en vit bakgrund, men mer neutral vit som kan kännas lite mer steril eller teknisk. Den gröna färgen är troligen tänkt att symbolisera tillväxt eller värde, vilket nämns bland annat av George, J. & Beaird, J. (2014).
 
@@ -79,7 +79,7 @@ Teckensnitten är moderna, enkla att läsa och bidrar till känslan av en modern
 
 ### Konnotation av 1177:s webbsida
 
-<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/1177theme.jpeg" alt="Färgpalett 1177" class="report_image">
+<img src="http://www.student.bth.se/~jera23/dbwebb-kurser/design/me/portfolio/assets/img/kmom04/1177theme.jpeg" alt="Färgpalett 1177" class="report_image">
 
 1177 är en webbsida som drivs av Inera på uppdrag av Sveriges alla regioner. Det är en webbsida som samlar råd om hälsa och vård från regionerna i Sverige. Webbsidan används också för en sammanhållen överblick av vårdgivare. Här används en ren vit tillsammans med röd som kontrast. Det röda är troligen tänkt att knyta an till hälsa och kanske det lite mer dramatiska som nämns av George, J. & Beaird, J. (2014).
 
