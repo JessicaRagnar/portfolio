@@ -17,13 +17,13 @@
 
 .box {
   grid-column: span 2;
-  background-color: variables.$background-color;
+  background-color: variables.$dark-complement-color3;
   min-height: 15vh;
 }
 
 .small {
   grid-column: span 1;
-  background-color: variables.$background-color;
+  background-color: variables.$dark-complement-color3;
 }
 
 .wide {
@@ -36,11 +36,10 @@
 
 .borderbox {
   margin: 10px;
-  background-color: variables.$background-color;
 }
 
 .box-header {
-  background-color: variables.$background-black-color;
+  background-color: variables.$light-complement-color1;
   text-align: center;
   padding: 10px;
 }
@@ -51,17 +50,17 @@
 }
 
 .box-header h2 a,
-a:visited {
+box-header h2 a:visited {
+  color: variables.$light-complement-color3;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .box-header h2 a:hover {
-  color: variables.$font-accent-color;
+  color: variables.$light-font-color;
   text-decoration: underline;
 }
 
-/* MENU */
 .technology-menu-mobile {
   display: none;
 }
@@ -80,21 +79,20 @@ a:visited {
   display: block;
   padding: 20px;
   text-align: left;
-  background-color: variables.$background-dark-color;
+  background-color: variables.$dark-background-color;
   transition: background-color 0.3s ease;
 }
 
 .technology-menu li a {
   display: block;
-  color: variables.$font-light-color;
+  color: variables.$light-font-color;
   text-decoration: none;
 }
 
 .technology-menu li:hover {
-  background-color: variables.$font-accent-color;
+  background-color: variables.$light-complement-color2;
 }
 
-/* RESPONSIVITY */
 @media (max-width: 768px) {
   .landingpage {
     max-width: 90vw;
@@ -108,7 +106,7 @@ a:visited {
 
   .box {
     grid-column: span 3;
-    background-color: variables.$background-color;
+    background-color: variables.$light-background-color;
     min-height: 15vh;
   }
 
@@ -119,7 +117,7 @@ a:visited {
   .technology-menu-mobile {
     display: block;
     padding: 20px;
-    background-color: variables.$background-dark-color;
+    background-color: variables.$dark-background-color;
     transition: background-color 0.3s ease;
   }
 
@@ -127,13 +125,13 @@ a:visited {
     flex: 1 1 auto;
     display: block;
     padding: 10px;
-    background-color: variables.$background-dark-color;
+    background-color: variables.$dark-background-color;
     transition: background-color 0.3s ease;
   }
 
   .technology-menu-mobile li a {
     display: block;
-    color: variables.$font-light-color;
+    color: variables.$light-font-color;
     text-decoration: none;
     text-align: center;
   }
@@ -147,5 +145,4 @@ a:visited {
     margin: 0;
     padding: 0;
   }
-
 }

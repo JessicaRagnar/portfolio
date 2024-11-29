@@ -1,20 +1,24 @@
-$background-color: #e1a95f;
-$background-light-color: #f5f5dc;
-$background-dark-color: #615c55;
-$background-darker-color: #273136;
-$background-black-color: #333;
+// Light Theme
+$light-background-color: #f2b190;
+$light-complement-color1: #a9f291;
+$light-complement-color2: #505173;
+$light-complement-color3: #4d4d4d;
+$light-font-color: #2b2b2b;
 
+// Dark Theme
+$dark-background-color: #2b2b2b; 
+$dark-complement-color1: #a9f291; 
+$dark-complement-color2: #505173;
+$dark-complement-color3: #7a645a;
+$dark-font-color: #f5f5dc;
+
+// Fonts
 $font-primary: 'Josefin Sans', serif;
 $font-secondary: 'Playwrite GB S', sans-serif;
 $font-menu: 'Bebas Neue', sans-serif;
 
+// Font sizes
 $font-size-small: 14px;
 $font-size-base: 16px;
-$font-size-screen: 24px;
-$font-size-medium: 34px;
+$font-size-medium: 24px;
 $font-size-large: 34px;
-
-$font-light-color: #f5f5dc;
-$font-dark-color: #8b7c69;
-$font-darker-color: #64737a;
-$font-accent-color: #5eb2e0;

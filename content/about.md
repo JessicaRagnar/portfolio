@@ -3,6 +3,8 @@ Title: About
 Description: This is the page about.
 ---
 
+<img src="image/kmom06/beingfriends.webp?w=200&q=80" srcset="image/kmom06/beingfriends.webp?w=500&q=60 500w, image/kmom06/beingfriends.webp?w=900&q=60 900w" sizes="(max-width: 768px) 100vw, 50vw" alt="Friends" class="profile-pic"width="200" height="200">
+
 Om webbplatsen
 ==========================
 

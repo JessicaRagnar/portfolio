@@ -1,7 +1,7 @@
 @use '../../node_modules/normalize.css/normalize';
 @use 'variables';
 
-@use 'mobile-menu';
+@use 'menu-light';
 @use 'blockquotes';
 @use 'code';
 
@@ -25,7 +25,7 @@ body {
   min-height: 100vh;
   font-family: variables.$font-primary;
   font-size: variables.$font-size-base;
-  background-color: variables.$background-color;
+  background-color: rgba(variables.$light-background-color, 0.9);
   line-height: 1.5;
 }
 
@@ -33,6 +33,16 @@ body {
   max-width: 60vw;
   margin: 0 auto;
   padding: 0 20px; 
+}
+
+/* LINKS */
+a {
+  color: #036;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0055a4; 
 }
 
 /* Hide navbar-smenu */
@@ -47,7 +57,7 @@ body {
     flex-direction: column;
     text-decoration: none;
     min-height: 100vh;
-    background-image: url('../../../assets/img/bgkmom04.svg');
+    background-image: url('../../../assets/img/bg.webp');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,8 +65,8 @@ body {
 
   .main {
     flex: 1;
-    background-color: variables.$background-dark-color;
-    color: variables.$font-light-color;
+    background-color: variables.$light-background-color;
+    color: variables.$light-font-color;
     padding: 40px 0;
   }
 }
@@ -65,8 +75,8 @@ body {
   .main {
     flex: 1;
     min-height: 60vh;
-    background-color: variables.$background-dark-color;
-    color: variables.$font-light-color;
+    background-color: variables.$light-background-color;
+    color: variables.$light-font-color;
   }
 }
 
@@ -94,12 +104,12 @@ body {
 /* MAIN */
 .main {
   flex: 1;
-  background-color: variables.$background-dark-color;
-  color: variables.$font-light-color;
+  background-color: variables.$light-background-color;
+  color: variables.$light-font-color;
   padding: 40px 0;
 
   .content-wrapper {
-    max-width: 50vw;
+    max-width: 60vw;
     margin: 0 auto;
     padding: 0 20px; 
   }
@@ -124,6 +134,17 @@ video {
   max-width: 100%;
 }
 
+/* PROFILPICTURE */
+.profile-pic {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10%;
+  border: 10px solid variables.$light-complement-color2;
+  float: right;
+  margin: 0 0 60px 100px;
+}
+
 /* VIDEO */
 .embed-container {
   position: relative;
@@ -145,7 +166,7 @@ video {
 
 /* FOOTER*/
 .footer {
-  background-color: variables.$background-darker-color;
+  background-color: variables.$light-complement-color2;
   padding: 10px;
   padding-right: 20px;
 }
@@ -160,11 +181,12 @@ video {
 .footer a {
   font-size: 24px;
   transition: color 0.3s ease;
+  text-decoration: none;
 
   &:hover {
     text-decoration: none;
-    background-color: rgba(94, 178, 224, 0.308);
-    box-shadow: 0 0 15px rgba(94, 178, 224, 0.7);
+    background-color: rgba(43, 43, 43, 0.308);
+    box-shadow: 0 0 15px rgba(43, 43, 43, 0.7);
     border-radius: 100%;
   }
 
@@ -173,31 +195,23 @@ video {
   }
 }
 
-/* PROFILPICTURE */
-.profile-pic {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 50%;
-  border: 10px solid #5eb2e0;
-  float: left;
-  margin: 20px 40px 20px 0;
-}
-
 /* RESPONSIVITY */
 @media (max-width: 768px) {
   .profile-pic {
-    max-width: 250px;
-    margin: 15px;
-    float: none;
+    display: block;
     margin: 0 auto;
+    max-width: 80%;
+    float: none;
   }
 
   body {
-    font-size: variables.$font-size-screen;
+    font-size: variables.$font-size-medium;
   }
   
-  img {
+  img,
+  embed,
+  object,
+  video {
     max-width: 100%;
     height: auto;
   }
@@ -215,18 +229,15 @@ video {
   .home-page,
   .about-page {
     .header {
-      background-image: url('../../../assets/img/bg.svg');
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-image: none;
       min-height: 10vh;
     }
 
     .main {
       flex: 1;
       max-width: 100vw;
-      background-color: variables.$background-dark-color;
-      color: variables.$font-light-color;
+      background-color: variables.$light-background-color;
+      color: variables.$light-font-color;
       padding: 0;
       text-align: center;
     }
