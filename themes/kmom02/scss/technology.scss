@@ -17,7 +17,8 @@
 
 .box {
   grid-column: span 2;
-  background-color: variables.$dark-complement-color3;
+  background-color: variables.$dark-complement-color1;
+  color: variables.$light-font-color;
   min-height: 15vh;
 }
 
@@ -45,6 +46,7 @@
 }
 
 .box-header h2 {
+  color: variables.$light-font-color;
   padding: 0;
   margin: 0;
 }
@@ -85,7 +87,7 @@ box-header h2 a:visited {
 
 .technology-menu li a {
   display: block;
-  color: variables.$light-font-color;
+  color: variables.$dark-font-color;
   text-decoration: none;
 }
 

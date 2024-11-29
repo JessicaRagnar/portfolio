@@ -3,7 +3,10 @@ Title: Home
 Description: This is our index page.
 ---
 
-<img src="image/JessicaR.jpg?&save-as=webP&q=80" srcset="image/JessicaR.jpg?&save-as=webP&q=80&w=500&q=60 500w, image/JessicaR.jpg?&save-as=webP&q=80&w=900&q=60 900w" sizes="(max-width: 768px) 100vw, 50vw" alt="Friends" class="profile-pic"width="200" height="200">
+<picture>
+    <source media="(min-width: 668px)" srcset="image/JessicaR.jpg?&save-as=webP&w=320&q=70">
+    <img src="image/JessicaR.jpg?&save-as=webP&w=320&q=70" class="profile-pic" alt="Jessica" width="320" height="320" >
+</picture>
 
 Portfolio Jessica Ragnar
 ==========================
