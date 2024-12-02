@@ -29,7 +29,7 @@
   transition: color 0.3s ease, text-decoration 0.5s ease;
 
   &:hover {
-    color: variables.$light-font-color;
+    color: variables.$dark-font-color;
     text-decoration: underline; 
   }
 }
@@ -44,15 +44,21 @@
     position: relative;
   }
 
+  .nav {
+    height: 60px;
+    transition: opacity 0.3s ease-in-out;
+    background-color: variables.$dark-background-color;
+  }
+
   .nav ul {
     flex-direction: column;
     padding-top: 40px;
+    background-color: variables.$dark-background-color;
   }
 
   .nav ul li {
     display: flex;
     flex-direction: column;
-    background-color: variables.$light-background-color;
   }
 
   .nav ul li a {

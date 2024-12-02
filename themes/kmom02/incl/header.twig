@@ -17,11 +17,14 @@
     <link rel="icon" href="{{ base_url }}/image/logo.svg">
 
     {% if config.session.theme == "dark" %}
+    <link rel="preload" href="{{ theme_url }}/css/style-dark.min.css" as="style" />
     <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
     {% else %}
+    <link rel="preload" href="{{ theme_url }}/css/style.css" as="style" />
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
     {% endif %}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
 </head>

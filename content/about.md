@@ -3,10 +3,7 @@ Title: About
 Description: This is the page about.
 ---
 
-<picture>
-    <source media="(min-width: 668px)" srcset="image/kmom06/beingfriends.webp?w=320&q=60">
-    <img src="image/kmom06/beingfriends.webp?w=320&q=80" class="profile-pic" alt="Jessica" width="320" height="320" >
-</picture>
+<img src="image/kmom06/beingfriends.webp&w=320&q=70" srcset="image/kmom06/beingfriends.webp&w=320&q=70 320w, image/kmom06/beingfriends.webp&w=447&q=70 447w" sizes="(max-width: 600px) 298px, 447px"alt="Being friends" class="profile-pic" width="298" height="298">
 
 Om webbplatsen
 ==========================
